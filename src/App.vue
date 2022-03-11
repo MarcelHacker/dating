@@ -1,7 +1,5 @@
 <template>
-  
-    <LoveSidebar />
-  
+  <LoveSidebar />
   <router-view />
 </template>
 
