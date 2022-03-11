@@ -1,1 +1,1 @@
-endOfLine: "off";
+endOfLine: "auto";

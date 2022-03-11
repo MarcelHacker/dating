@@ -1,10 +1,19 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <LoveSidebar />
   </nav>
   <router-view />
 </template>
+
+<script lang="ts">
+import LoveSidebar from "@/components/LoveSidebar.vue"; // @ is an alias to /src
+
+export default {
+  components: {
+    LoveSidebar,
+  },
+};
+</script>
 
 <style>
 #app {
