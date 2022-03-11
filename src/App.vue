@@ -1,16 +1,9 @@
 <template>
-  <LoveSidebar />
   <router-view />
 </template>
 
 <script lang="ts">
-import LoveSidebar from "@/components/LoveSidebar.vue"; // @ is an alias to /src
 
-export default {
-  components: {
-    LoveSidebar,
-  },
-};
 </script>
 
 <style>

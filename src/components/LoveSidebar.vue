@@ -12,19 +12,19 @@
   >
     <el-menu-item index="1">
       <el-icon><location /></el-icon>
-      <template #title>Navigator Two</template>
+      <template #title>Standort</template>
     </el-menu-item>
     <el-menu-item index="2">
       <el-icon><icon-menu /></el-icon>
-      <template #title>Navigator Two</template>
+      <template #title>Datingcards</template>
     </el-menu-item>
-    <el-menu-item index="3" disabled>
+    <el-menu-item index="3">
       <el-icon><document /></el-icon>
-      <template #title>Navigator Three</template>
+      <template #title>Nachrichten</template>
     </el-menu-item>
     <el-menu-item index="4">
       <el-icon><setting /></el-icon>
-      <template #title>Navigator Four</template>
+      <template #title>Settings</template>
     </el-menu-item>
   </el-menu>
 </template>
