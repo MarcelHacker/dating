@@ -6,5 +6,7 @@ import store from './store'
 
 // Element
 import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
 
 createApp(App).use(router).use(store).use(ElementPlus).mount('#app')
