@@ -1,5 +1,8 @@
 // prettier.config.js or .prettierrc.js
 module.exports = {
-  endOfLine: "auto",
+  singleQuote: false,
+  semi: false,
+  endOfLine: 'auto',
   bracketSpacing: true,
-};
+  'editor.formatOnSave': false,
+}

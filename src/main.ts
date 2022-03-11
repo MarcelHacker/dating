@@ -1,16 +1,10 @@
 /* eslint-disable */
-import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
 
-// Oruga UI
-import { Autocomplete, Sidebar } from "@oruga-ui/oruga-next"; // tree-shaking
-import "@oruga-ui/oruga-next/dist/oruga.css";
+// Element
+import ElementPlus from 'element-plus'
 
-createApp(App)
-  .use(store)
-  .use(router)
-  .use(Autocomplete)
-  .use(Sidebar)
-  .mount("#app");
+createApp(App).use(router).use(store).use(ElementPlus).mount('#app')
